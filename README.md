@@ -1,6 +1,12 @@
 # nifuzzer
 nifuzzer is a tool for generating payloads using the ABNF grammar, which is used in RFC to describe various data types and structures. It is possible to add individual parts of a complex rule so that they are tracked when generating values. This tool can be used as an add-on, pre-generation element for your fuzzer or an existing fuzzer.
 
+### Install
+You need to install requirements.txt so that the tool can work
+```
+pip3 install -r requirements.txt
+```
+
 ### Usage
 Python version 3 is required to run the tool. To run help, enter
 ```
