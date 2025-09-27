@@ -37,8 +37,9 @@ The tool was tested using libraries for validating and parsing URL-addresses of 
 
 ##### Results
 The results of testing the validation libraries are shown in the first figure. The second figure shows the average validation value for each programming language. It can be seen that valid payloads are generated, which reduces the chance that these tool-generated values ​​will be useless, meaning they won't even reach the core software functions without passing the validation check.
-![](https://github.com/inechakhin/nifuzzer/tree/main/test/charts/val_res.png)
-![](https://github.com/inechakhin/nifuzzer/tree/main/test/charts/avg_val_res.png)
+![val_res](https://github.com/inechakhin/nifuzzer/tree/main/test/charts/val_res.png)
+
+![avg_val_res](https://github.com/inechakhin/nifuzzer/tree/main/test/charts/avg_val_res.png)
 
 The results of testing the parsing libraries are shown in the third figure. It's clear that a variety of input data is generated, allowing us to find many different places in the program that trigger interesting behavior.
-![](https://github.com/inechakhin/nifuzzer/tree/main/test/charts/pars_res.png)
+![pars_res](https://github.com/inechakhin/nifuzzer/tree/main/test/charts/pars_res.png)
